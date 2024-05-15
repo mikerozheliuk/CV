@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 400;
+  --accent-color: #4782c2;
+  color: #485268;
+  background-color: #e5e5e5;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto 80px;
+  padding-bottom: 20px;
+}
+
+.about {
+  text-align: center;
+  padding: 32px 40px 24px;
+  background-color: var(--accent-color);
+  color: #fff;
+}
+
+.about__name {
+  margin-bottom: 18px;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.about__role {
+  margin-bottom: 18px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+
+.body {
+  background-color: #fff;
+  padding: 0 40px;
+}
+.body__contacts {
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.body__link {
+  text-decoration: none;
+  color: #485268;
+  transition: all 0.4s;
+}
+
+.body__link:hover {
+  color: var(--accent-color);
+}
+
+.info {
+  border-top: 1px solid #dee2ed;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info__title {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  color: var(--accent-color);
+}
+
+.info__content {
+  width: 470px;
+}
+
+.info__items {
+  padding-left: 12px;
+  border-left: 1px dashed #dee2ed;
+  margin-bottom: 18px;
+}
+
+.info__subtitle {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.item__title {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+
+.item__project {
+  list-style: none;
+}
+
+.item__link {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
+.info__text {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.info__skils {
+  display: flex;
+}
+
+.info__list {
+  box-sizing: border-box;
+  flex-grow: 1;
+  padding-left: 12px;
+  border-left: 1px dashed #dee2ed;
+}
+
+.info__item {
+  list-style: none;
+  margin-bottom: 8px;
+}

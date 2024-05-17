@@ -107,9 +107,18 @@ body {
   list-style: none;
 }
 
+.item__subtitle {
+  padding-bottom: 15px;
+}
+
 .item__link {
   text-decoration: none;
   color: var(--accent-color);
+}
+
+.item__lists {
+  display: flex;
+  gap: 50px;
 }
 
 .info__text {
